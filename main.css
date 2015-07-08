@@ -5,4 +5,11 @@ body {
   color: #aaddee;
   border: 2px dashed #DDDDDD;
 }
-.nav
+.nav {
+  color: #BBBBFF;
+  display: inline;
+}
+.footer {
+  color: #FFFFFF;
+  font-family: Helvetica, sans-serif;
+}
