@@ -1,7 +1,8 @@
 body {
   background: #222222;
 }
-h1 {
+.header {
   color: #aaddee;
-  border: 2px dashed #000000;
+  border: 2px dashed #DDDDDD;
 }
+.nav
