@@ -1,15 +1,17 @@
 body {
   background: #222222;
+  margin: 25px;
 }
 header {
   color: #aaddee;
   border: 2px dashed #DDDDDD;
+  text-align: center;
 }
-.nav {
+nav ul li{
   color: #BBBBFF;
   display: inline;
 }
-.footer {
+footer {
   color: #FFFFFF;
   font-family: Helvetica, sans-serif;
 }
