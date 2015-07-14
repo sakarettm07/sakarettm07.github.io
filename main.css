@@ -1,17 +1,43 @@
 body {
-  background: #222222;
+  background: #80E6FF;
   margin: 25px;
 }
-header {
-  color: #aaddee;
-  border: 2px dashed #DDDDDD;
-  text-align: center;
+* {
+  color: #002933;
 }
+header {
+  color: #223344;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px #006680; 
+  text-align: center;
+  margin: 15px;
+}
+
 nav ul li{
   color: #BBBBFF;
   display: inline;
+  padding-right: 10px;
 }
+
+nav ul{
+  text-align: center;
+}
+
 footer {
-  color: #FFFFFF;
+  color: #667711;
   font-family: Helvetica, sans-serif;
+  font-size: 12px;
+  text-align: center;
+}
+
+article {
+  background: #99EBFF;
+  box-shadow: 0 1px 4px #006680;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+article h2 {
+  text-align: center;
 }
