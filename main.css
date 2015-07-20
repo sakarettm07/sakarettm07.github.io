@@ -2,31 +2,39 @@ body {
   background: #80E6FF;
   margin: 25px;
 }
+body.main{
+  background: #80E6FF url('backgrounds/bg2.jpeg') no-repeat top center,
+  
+}
 * {
   color: #002933;
+   font-family: tahoma, sans-serif;
 }
-header {
+
+/*header {
   background: #99EDFF;
   border-radius: 10px;
   box-shadow: 0 1px 1px #006680; 
   text-align: center;
-  margin: 0 auto;
+  margin: 15px auto;
   padding-bottom: 1px;
   width: 300px;
   
+}*/
+
+.main h1{
+  color: #FFF;
+  font-size: 36px;
+  font-family: Helvetica, sans-serif;
+  
 }
 
-nav ul li{
+nav li{
   color: #BBBBFF;
   display: inline;
-  padding-right: 10px;
+  margin: 0 5px;
   text-align: center;
 }
-
-nav ul li:last-child {
-  padding-right: 0;
-}
-
 
 nav{
   margin: 0 auto;
