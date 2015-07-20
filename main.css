@@ -1,14 +1,14 @@
+                                /* Site-wide Styles */
+
 body {
   background: #80E6FF;
   margin: 25px;
-}
-body.main{
-  background: #80E6FF url('backgrounds/bg2.jpeg') no-repeat top center,
-  
-}
-* {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   color: #002933;
-   font-family: tahoma, sans-serif;
+  padding: none;
+  margin: none;
+  border: none;
+  font-size: 16px;
 }
 
 /*header {
@@ -22,12 +22,6 @@ body.main{
   
 }*/
 
-.main h1{
-  color: #FFF;
-  font-size: 36px;
-  font-family: Helvetica, sans-serif;
-  
-}
 
 nav li{
   color: #BBBBFF;
@@ -74,4 +68,70 @@ a {
 
 a:hover {
   color: #FFF;
+}
+
+
+
+                              /* Landing Page */
+.landing {
+  background: #80E6FF url("backgrounds/nybg.jpeg") no-repeat top center;
+  color: #000;
+  padding: 0;
+  background-size: 1200px 800px;
+  overflow: hidden;
+}
+
+.landing body {
+  width: 400px;
+} 
+
+.landing header {
+  background-color: rgba(255,255,255, 0.5); 
+  border-radius: 14px;
+  text-align: center;
+  position: relative;
+  top: 250px;
+  width: 100%;
+}
+
+.landing h1 {
+  font-size: 6.25em; /* 100 / 16 */
+  margin: 0;
+  position: static;
+} 
+
+.landing a {
+  background: none;
+  position: relative;
+  top: 280px;
+  text-align: center;
+  display: block;
+}
+
+
+
+                               /* Index Page */
+
+.index h1{
+  color: #FFF;
+  font-size: 36px;
+  font-family: Helvetica, sans-serif;
+  
+}
+
+                              /* About Me Page */
+.aboutme article {
+  width: 45%;
+}
+/*.aboutme article:first-child{
+  float: left;
+}*/
+
+.aboutme article:nth-child(2n) {
+  background: #FFF;
+  float: right;
+}
+
+.aboutme article:nth-child(2n+1) {
+  float: left;
 }
