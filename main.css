@@ -72,7 +72,7 @@ a:hover {
 
 
 
-                              /* Landing Page */
+                              /* Landing (Index) Page */
 .landing {
   background: #80E6FF url("backgrounds/nybg.jpeg") no-repeat top center;
   color: #000;
@@ -111,9 +111,9 @@ a:hover {
 
 
 
-                               /* Index Page */
+                               /* Home (Main) Page */
 
-.index h1{
+.main h1{
   color: #FFF;
   font-size: 36px;
   font-family: Helvetica, sans-serif;
